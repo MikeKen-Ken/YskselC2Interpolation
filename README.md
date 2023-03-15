@@ -7,5 +7,5 @@ JS version of [YukselC2Interpolation](https://github.com/tanganke/YukselC2Interp
 # Use It
 
 ```js
-smoothedPoints = YskselC2Interpolation.SmoothPolygon([...points, points[0]]);
+const smoothedPoints = YskselC2Interpolation.SmoothPolygon([...points, points[0]]);
 ```
