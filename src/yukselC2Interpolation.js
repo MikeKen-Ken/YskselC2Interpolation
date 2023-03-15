@@ -1,8 +1,6 @@
 import * as THREE from "three";
 import QuadraticBezierInterpolation from "./QuadraticBezierInterpolation";
 
-// 参考  http://www.cemyuksel.com/research/interpolating_splines/a_class_of_c2_interpolating_splines.pdf
-// https://github.com/tanganke/YukselC2Interpolation/blob/master/C%2B%2B/YukselC2Interpolation.h
 export default class YskselC2Interpolation {
 
     interpolationFunc = [];
