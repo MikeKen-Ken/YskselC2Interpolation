@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "CommonJS",
+        "lib": ["DOM", "ESNEXT"],
+        "allowJs": false,
+        "checkJs": false,
+        "declaration": true,
+        "outDir": "./dist",
+        "rootDir": "",
+        "removeComments": true,
+        "strict": true,
+        "typeRoots": ["node_modules/@types", "src/typings"],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "sourceMap": true
+    },
+    "include": ["src/**/*", "demo/**/*", "test/**/*"],
+    "exclude": ["dist"]
+}

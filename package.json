@@ -1,0 +1,41 @@
+{
+    "name": "yuksel-c2-interpolation",
+    "version": "1.0.0",
+    "description": "TS version of YukselC2Interpolation.",
+    "main": "src/YukselC2Interpolation.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MikeKen-Ken/YukselC2Interpolation.git"
+    },
+    "author": "ChenKen",
+    "license": "ISC",
+    "keywords": [
+        "yukselC2Interpolation",
+        "Spline",
+        "C2"
+    ],
+    "bugs": {
+        "url": "https://github.com/MikeKen-Ken/YukselC2Interpolation/issues"
+    },
+    "homepage": "https://github.com/MikeKen-Ken/YukselC2Interpolation#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.53.0",
+        "@typescript-eslint/parser": "^5.53.0",
+        "eslint": "^8.35.0",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "eslint-friendly-formatter": "^4.0.1",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-webpack-plugin": "^4.0.0",
+        "prettier": "^2.8.4",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5"
+    },
+    "dependencies": {
+        "@types/three": "^0.149.0",
+        "three": "^0.150.0"
+    }
+}
