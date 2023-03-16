@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import { Vector2 } from 'three';
 import QuadraticBezierInterpolation from './QuadraticBezierInterpolation';
 
 export default class YukselC2Interpolation {
@@ -14,7 +14,7 @@ export default class YukselC2Interpolation {
         const pts = [];
         for (let i = 0; i < points.length; i++) {
 
-            pts.push(new THREE.Vector2(points[i][0], points[i][1]));
+            pts.push(new Vector2(points[i][0], points[i][1]));
 
         }
         this.generateInterpolationFunc(pts);
@@ -40,7 +40,7 @@ export default class YukselC2Interpolation {
 
     }
 
-    static generateInterpolationFunc(pts: THREE.Vector2[]) {
+    static generateInterpolationFunc(pts: Vector2[]) {
 
         this.interpolationFunc = [];
         for (let i = 0; i < pts.length - 2; i++) {
