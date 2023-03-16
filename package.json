@@ -1,6 +1,6 @@
 {
     "name": "yuksel-c2-interpolation",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "description": "TS version of YukselC2Interpolation.",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -16,7 +16,8 @@
         "url": "git+https://github.com/MikeKen-Ken/YukselC2Interpolation.git"
     },
     "files": [
-        "dist/**/*",
+        "dist/index.d.ts",
+        "dist/index.js",
         "LICENSE",
         "README.md",
         "package.json"
